@@ -4,11 +4,14 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Silkscreen&display=swap');
 
 /* Base Styles
 ********************************************************************* */
 html {
 	font-size: 62.5%;
+  font-family: 'Handjet', cursive;
+  font-family: 'Silkscreen', cursive;
 }
 body {
 	font-size: 1.5em;
@@ -16,8 +19,7 @@ body {
 	font-weight: 400;
 	background:#ffffff;
   margin:0;
-  color:#8C8C8C;
-  font-family: 'Roboto', sans-serif;
+  color:#000;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -171,7 +173,7 @@ body {
 	}
 }
 span {
-  background:#23272A;
+  background-color:#000;
   padding:4px;
 }
 
@@ -204,13 +206,13 @@ h1 {
 }
 
 .icon {
-  color:#2C2F33;
+  color:#000;
 }
 
 .btn {
-  background:#23272A;
+  background:#000;
   padding:10px;
-  color:#8C8C8C;
+  color:#f6f6f6;
   border-radius:3px;
   transition:.4s;
 }
@@ -245,7 +247,7 @@ a {
 }
   
 #navbar a {
-    color: #23272A;
+    color: #000;
     text-decoration: none;
     padding: 0 20px;
     font-size: 14px;
@@ -257,7 +259,7 @@ a {
 
 #navbar a:hover {
     border-bottom: 2px solid #17660A;
-    color: #17660A;
+    color: #000;
 }
 
 #navbar a.active {
@@ -331,6 +333,28 @@ a {
 }
 
 .logo{
-	height: 11vh;
-	width: 11vh;
+	height: 5vh;
+	width: 5vh;
 }
+@media (prefers-color-scheme: dark) {
+  body{
+    background-color: #000;
+    color: #f6f6f6;
+  }
+
+  span {
+    background-color: #f6f6f6;
+  }
+
+  #navbar{
+    background-color: #000;
+  }
+  #navbar a {
+    color: #f6f6f6;
+  }
+  #navbar a:hover {
+    color: #f6f6f6;
+  }
+
+}
+

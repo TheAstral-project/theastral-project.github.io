@@ -1,5 +1,5 @@
-# Webpage Obiz Projects
+# Webpage astral Projects
 
-### simple static webpage that displays all the projects under obiz
+### simple static webpage that displays all the projects under astral
 
 ### MIT lisence 
