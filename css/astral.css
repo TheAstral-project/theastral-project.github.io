@@ -425,15 +425,18 @@ strong {
   width: 30px;
   height: 35px;
   outline: none;
+  color: var(--p-color);
 }
 
 .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
+  color: var(--p-color)
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: transparent;
+  color: var(--p-color)
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
